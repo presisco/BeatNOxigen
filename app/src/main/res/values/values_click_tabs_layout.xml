@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="click_tabs_layout_tabs_height">40dp</dimen>
+    <dimen name="click_tabs_layout_content_frame_margin_horizontal">12dp</dimen>
+    <dimen name="click_tabs_layout_content_frame_margin_top">4dp</dimen>
+    <dimen name="click_tabs_layout_content_frame_margin_bottom">4dp</dimen>
+
+    <color name="click_tabs_layout_tabs_default_background_color">#F5F5F5</color>
+    <color name="click_tabs_layout_tabs_default_selected_color">#4FC3F7</color>
+</resources>
