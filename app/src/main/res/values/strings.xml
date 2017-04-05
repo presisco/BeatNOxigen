@@ -1,6 +1,29 @@
 <resources>
-    <string name="app_name">BeatNOxigen</string>
+    <string name="app_name">健康助手</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_personal">个人</string>
+    <string name="title_heartbeat">心电</string>
+    <string name="title_oxigen">血氧</string>
+    <string name="label_monitor_mode">监控模式</string>
+
+    <string-array name="oxigen_modes">
+        <item>实时结果</item>
+        <item>上一小时</item>
+    </string-array>
+
+    <string-array name="oxigen_mode_hints">
+        <item>显示实时血氧数据</item>
+        <item>显示上一个小时的所有血氧数据</item>
+    </string-array>
+
+    <string-array name="heartbeat_modes">
+        <item>实时结果</item>
+        <item>上一小时</item>
+    </string-array>
+
+    <string-array name="heartbeat_mode_hints">
+        <item>显示实时心电数据</item>
+        <item>显示上一个小时的所有心电数据</item>
+    </string-array>
 </resources>

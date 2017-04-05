@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="value_panel_main_fontsize">80sp</dimen>
+    <dimen name="value_panel_title_fontsize">40sp</dimen>
+    <dimen name="value_panel_hint_fontsize">20sp</dimen>
+</resources>

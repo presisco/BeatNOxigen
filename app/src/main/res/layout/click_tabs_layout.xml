@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.design.graduation.beatnoxigen.UI.Framework.ClickTabsLayout.ClickTabsFramework">
 
     <FrameLayout
         android:id="@+id/contentFrame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/click_tabs_scroll"></FrameLayout>
+        android:layout_above="@+id/click_tabs_scroll" />
 
-    <com.design.graduation.beatnoxigen.Framework.ClickTabsLayout.ClickTabsFramework
+    <com.design.graduation.beatnoxigen.UI.Framework.ClickTabsLayout.ClickTabsContainer
         android:id="@+id/click_tabs_scroll"
         android:layout_width="match_parent"
         android:layout_height="@dimen/click_tabs_layout_tabs_height"
@@ -17,18 +19,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/click_tabs_layout_tabs_default_background_color"
-        android:fillViewport="false">
-
-    </com.design.graduation.beatnoxigen.Framework.ClickTabsLayout.ClickTabsFramework>
-
-    <!--    <HorizontalScrollView
-            android:id="@+id/click_tabs_scroll"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/click_tabs_layout_tabs_height"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:background="@color/click_tabs_layout_tabs_default_background_color"
-            android:fillViewport="false"></HorizontalScrollView>-->
+        android:fillViewport="false" />
 
 </RelativeLayout>
